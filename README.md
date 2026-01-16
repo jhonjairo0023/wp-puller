@@ -12,7 +12,7 @@ Push to GitHub → Theme updates automatically. No FTP, no manual uploads.
 
 WP Puller connects your WordPress theme to a GitHub repository. When you push changes, a webhook triggers and your live site updates within seconds. Works with both public and private repositories.
 
-**This is the free alternative to WP Pusher.**
+**This is the free alternative to WP Pusher and Git Updater.**
 
 ---
 
