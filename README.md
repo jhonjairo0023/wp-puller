@@ -28,7 +28,7 @@ WP Puller connects your WordPress theme to a GitHub repository. When you push ch
 
 ## Install
 
-1. Download `wp-puller.zip` from [Releases](../../releases)
+1. Download `wp-puller.zip` from [Releases](../../releases) or directly .zip the "wp-puller" folder in repository.
 2. WordPress admin → Plugins → Add New → Upload Plugin
 3. Upload ZIP, activate
 
